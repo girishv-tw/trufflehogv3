@@ -2,4 +2,4 @@
 trufflehog/
 pom.xml
 test
-secrets.txt
+Secrets.txt

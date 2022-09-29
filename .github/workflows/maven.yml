@@ -28,7 +28,7 @@ jobs:
           path: ./
           base: ${{ github.event.repository.default_branch }}
           head: HEAD
-          scanArguments: --only-verified --exclude-paths=trufflehog/exclude-patterns.txt
+          extra_args: --only-verified --exclude-paths=trufflehog/exclude-patterns.txt
 
     - name: Build with Maven
       run: 
